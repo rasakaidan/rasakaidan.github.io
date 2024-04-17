@@ -3227,6 +3227,18 @@ td:last-child {
 	color: white;
 }
 
+.top-left {
+	position: absolute;
+	top: 40px;
+	left: 45px;
+}
+
+.bottom-right {
+	position: absolute;
+	bottom: 40px;
+	right: 115px;
+}
+
 /* --------------------------------------------------------------------
  * ## main navigation
  * -------------------------------------------------------------------- */
@@ -4727,4 +4739,26 @@ td:last-child {
 
 .contact-list li {
 	padding-left: 0;
+}
+
+
+.stickyslider {
+	position: relative;
+	width: 50%;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #f7ba60;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: .5s ease;
+}
+
+.stickyslider:hover .overlay {
+	width: 100%;
 }
