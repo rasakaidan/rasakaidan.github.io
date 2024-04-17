@@ -3221,7 +3221,7 @@ td:last-child {
  * -------------------------------------------------------------------- */
  .container-image-head {
 	font-size: 160px;
-	font-family: monospace;
+	font-family: "Roboto Flex", sans-serif;
 	position: relative;
 	text-align: center;
 	color: white;
