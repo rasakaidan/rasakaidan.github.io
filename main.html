@@ -26,9 +26,16 @@
     </div>
 
     <script>
-        var board = Chessboard('myBoard', {
-            position: 'start'
-        });
+        try {
+            var board = Chessboard('myBoard', {
+                position: 'start'
+            });
+        console.log('Initialise correct');
+        } 
+        catch (error) {
+            console.log('Something fucky this way comes', error);
+        }
+            
     </script>
 </body>
 </html>
